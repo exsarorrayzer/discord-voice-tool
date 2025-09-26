@@ -1,0 +1,18 @@
+{
+    "tokens_file": "tokens.txt",
+    "max_workers": 50,
+    "timeout": 30,
+    "default_server_id": "",
+    "default_channel_id": "",
+    "voice_settings": {
+        "self_mute": false,
+        "self_deaf": false,
+        "self_stream": false,
+        "self_video": false
+    },
+    "spammer_settings": {
+        "join_duration": 1,
+        "leave_duration": 1,
+        "max_retries": 3
+    }
+}
