@@ -5,10 +5,15 @@ A professional Discord voice channel utility tool with mass joining and voice ch
 ✨ Features
 
 · Mass Voice Join - Join voice channels with multiple tokens simultaneously
+
 · Voice Spammer - Automated join/leave spam with customizable timing
+
 · Config Management - JSON-based configuration system
+
 · Rich UI - Beautiful terminal interface with colors and progress indicators
+
 · Token Management - Easy token management from external file
+
 · Rate Limit Protection - Built-in protection against Discord rate limits
 
 🚀 Quick Start
@@ -16,6 +21,7 @@ A professional Discord voice channel utility tool with mass joining and voice ch
 Prerequisites
 
 · Python 3.7 or higher
+
 · Discord account(s) with valid token(s)
 
 Installation
@@ -35,7 +41,9 @@ pip install -r requirements.txt
 
 1. Configure your tokens
    · Create tokens.txt in the main directory
+
    · Add your Discord tokens (one per line)
+
 2. Run the tool
 
 ```bash
@@ -87,19 +95,30 @@ Main Menu Options
 
 1. Mass Join Voice Channel
    · Join a voice channel with all tokens
+
    · Uses WebSocket connections for stability
+
    · Maintains connection until interrupted
+
 2. Voice Channel Spammer
    · Automated join/leave cycling
+
    · Customizable timing intervals
+
    · Configurable voice settings
+
 3. Configuration Menu
    · View current settings
+
    · Set default Server/Channel IDs
+
    · Configure voice and spammer settings
+
 4. Check Tokens
    · View loaded tokens (first 5 with masking)
+
    · Verify token count and validity
+
 
 Getting Server and Channel IDs
 
@@ -107,10 +126,13 @@ To get Server and Channel IDs in Discord:
 
 1. Enable Developer Mode:
    · Settings → Advanced → Developer Mode (ON)
+
 2. Get Server ID:
    · Right-click server icon → "Copy ID"
+
 3. Get Channel ID:
    · Right-click voice channel → "Copy ID"
+
 
 📁 Project Structure
 
@@ -132,14 +154,19 @@ discord-voice-tool/
 Dependencies
 
 · rich: Beautiful terminal formatting
+
 · websockets: WebSocket client implementation
+
 · colorama: Cross-platform colored terminal text
 
 Architecture
 
 · Async/Await: For non-blocking WebSocket connections
+
 · ThreadPoolExecutor: For concurrent token management
+
 · Modular Design: Separated concerns for maintainability
+
 · Error Handling: Comprehensive exception handling
 
 ⚠️ Disclaimer
@@ -167,17 +194,21 @@ Common Issues
 "No tokens found"
 
 · Ensure tokens are properly formatted in tokens.txt
+
 · Remove empty lines and comments
 
 Connection errors
 
 · Verify token validity
+
 · Check internet connection
+
 · Ensure Discord service is accessible
 
 Rate limiting
 
 · Reduce max_workers in configuration
+
 · Increase delays between operations
 
 Debug Mode
@@ -189,14 +220,19 @@ For detailed debugging, enable verbose logging by modifying the source code or c
 exsarorrayzer
 
 · GitHub: exsarorrayzer
+
 · Instagram: exsarorrayzer
+
 · Discord: noinfonocontext
+
 · YouTube: exsarorrayzer
 
 🙏 Acknowledgments
 
 · Discord API community for documentation
+
 · Rich library developers for amazing terminal UI
+
 · Python community for excellent WebSocket support
 
 ---
